@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap');
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 200;
+}
+
+div {
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #302e36;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+
+#icon-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 175px;
+}
+
+#projects {
+    width: 100%;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 250px;
+}
+
+#button-box {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+#button-box > a {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 22px;
+    background-color: #555066;
+    border: 0;
+    border-radius: 30px;
+    padding: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+#button-box > a:hover {
+    background-color: #70678f;
+}
+
+#button-box > a:active {
+    background-color: #58526e;
+}
+
+#profile-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#name-and-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 130px;
+}
+
+#intro {
+    margin: 10px;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project {
+    border-radius: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #3b3845;
+    width: 60%;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.project-description {
+    margin: 0;
+}
+
+.project-description > h2 {
+    margin: 15px;
+    margin-left: 30px;
+}
+.project-description > * {
+    margin-left: 30px;
+}
+
+.project-thumbnail {
+  border-radius: 10px;
+  width: 200px;
+  height: 160px;
+}
